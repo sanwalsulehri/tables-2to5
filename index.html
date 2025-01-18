@@ -20,10 +20,13 @@
       <!-- --- -->
       <!-- ---- -->
       <!-- SideBar -->
+       <div class="sideBar xl:block hidden   transition-all duration-600 ">
+      <div class="h-screen overlay w-screen xl:hidden block fixed top-0 left-0 z-[60] bg-black/30"></div>
+
       <div
-        class="w-[308px] xl:block hidden z-[60] px-2 border-r border-[#00000004] shadow-[0_16px_142px_0_#00000001] fixed left-0 top-0 bg-white h-screen overflow-auto"
+        class="w-[308px]  z-[60] px-2 border-r border-[#00000004] shadow-[0_16px_142px_0_#00000001] fixed left-0 top-0 bg-white h-screen overflow-auto"
       >
-        <div class="max-w-[208px] mx-auto">
+        <div class="max-w-[208px]  mx-auto">
           <div class="mx-auto mt-6 w-fit">
             <a href="#">
               <svg
@@ -663,6 +666,9 @@
         </div>
       </div>
 
+    </div>
+
+
       <div class="w-full h-full xl:pl-[308px] relative z-[40]">
         <!-- --- -->
         <!-- ---- -->
@@ -671,7 +677,7 @@
           class="border-r border-b bg-white py-4 min-h-[90px] px-8 flex items-center justify-between gap-4 border-[#00000004]"
         >
           <div class="flex items-center gap-3">
-            <div class="xl:hidden block">
+            <div class="xl:hidden hamBurger block">
               <svg
                 class="w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1504,5 +1510,8 @@
         </defs>
       </svg>
     </div>
+
+
+    <script src="./script.js"></script>
   </body>
 </html>
